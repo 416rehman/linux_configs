@@ -6,12 +6,4 @@
 	" Start NERDTree and put the cursor back in the other window.
 	autocmd VimEnter * NERDTree | wincmd p
 	
-	" Track local_history of files
-	if version >= 703
-	    set undodir=~/.vim/.local_history
-	    set undofile
-	    set undoreload=10000
-	endif
-
-
 "}}}

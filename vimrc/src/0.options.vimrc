@@ -28,3 +28,7 @@ set incsearch
 
 " Customization
 colorscheme elflord
+
+" Enable Copilot on all Filetypes - NEOVIM
+let g:copilot_filetypes = { '*': v:true}
+

@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 
   Plug 'preservim/nerdtree'
 
+  " Github Copilot - NEOVIM
   Plug 'github/copilot.vim'
 
 call plug#end()

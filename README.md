@@ -1,4 +1,5 @@
-# linux_configs
+# Linux Configuration Files
+
 My Linux configuration files and installers. 
 
 These configurations can be installed by running the `install.sh` script found in each folder.

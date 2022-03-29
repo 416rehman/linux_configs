@@ -4,4 +4,7 @@ My Linux configuration files and installers.
 
 These configurations can be installed by running the `install.sh` script found in each folder.
 
+## Configurations
+1. [vimrc](./vimrc) - Vim/Neovim configuration
+
 Tested on Arch Linux, may not work on other Linux distributions.

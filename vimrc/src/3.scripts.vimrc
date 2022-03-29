@@ -5,5 +5,16 @@
 	
 	" Start NERDTree and put the cursor back in the other window.
 	autocmd VimEnter * NERDTree | wincmd p
+
+
+ 	" NEOVIM {{{ --------------------
+	if has('nvim')
+
+	
+
+
+
+	endif
+	" }}} END NEOVIM ----------------
 	
 "}}}

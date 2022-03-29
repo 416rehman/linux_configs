@@ -29,7 +29,7 @@
 	
 	" Have nerdtree ignore certain files and directories.
 	let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$', '\.idea']
-	
+
 	" Move lines up and down with ALT+J and ALT+K.
 	nnoremap <A-j> :m .+1<CR>==
 	nnoremap <A-k> :m .-2<CR>==
@@ -38,5 +38,13 @@
 	vnoremap <A-j> :m '>+1<CR>gv=gv
 	vnoremap <A-k> :m '<-2<CR>gv=gv
 
+ 	" NEOVIM {{{ --------------------
+	if has('nvim')
 
+	
+
+
+
+	endif
+	" }}} END NEOVIM ----------------
  "}}}

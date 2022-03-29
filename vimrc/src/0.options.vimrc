@@ -1,34 +1,51 @@
-set number
-set relativenumber
+" OPTIONS -------------------------------------------- {{{
+	set number
+	set relativenumber
+	
+	" Smart searching
+	set ignorecase
+	set smartcase
+	
+	" Enable type file detection. Vim will be able to try to detect the type of file in use.
+	filetype on
+	
+	" Enable plugins and load plugin for the detected file type.
+	filetype plugin on
+	
+	" Load an indent file for the detected file type.
+	filetype indent on
+	
+	" Turn syntax highlighting on.
+	syntax on
+	
+	" Enable cursorline
+	" set cursorline
+	
+	" Enable search highlights
+	set hls
+	
+	" Enable incsearch
+	set incsearch
+	
+	" Customization
+	colorscheme elflord
+	
+	" Enable Copilot on all Filetypes - NEOVIM
+	let g:copilot_filetypes = { '*': v:true}
 
-" Smart searching
-set ignorecase
-set smartcase
 
-" Enable type file detection. Vim will be able to try to detect the type of file in use.
-filetype on
 
-" Enable plugins and load plugin for the detected file type.
-filetype plugin on
 
-" Load an indent file for the detected file type.
-filetype indent on
 
-" Turn syntax highlighting on.
-syntax on
 
-" Enable cursorline
-" set cursorline
 
-" Enable search highlights
-set hls
+ 	" NEOVIM {{{ --------------------
+	if has('nvim')
 
-" Enable incsearch
-set incsearch
+        	" Enable Copilot on all Filetypes - NVIM
+		let g:copilot_filetypes = { '*': v:true}
 
-" Customization
-colorscheme elflord
+	endif
+	" }}} END NEOVIM ----------------
 
-" Enable Copilot on all Filetypes - NEOVIM
-let g:copilot_filetypes = { '*': v:true}
-
+" }}}

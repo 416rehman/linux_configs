@@ -38,7 +38,9 @@
 	vnoremap <A-j> :m '>+1<CR>gv=gv
 	vnoremap <A-k> :m '<-2<CR>gv=gv
 
- 	" NEOVIM {{{ --------------------
+
+
+	" NEOVIM {{{ --------------------
 	if has('nvim')
 
 	
